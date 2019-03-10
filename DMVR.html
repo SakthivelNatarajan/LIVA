@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liva/moon</title>
+    <script src="js/aframe.min.js"></script>
+    <link rel="icon" href="imgw/li.png" type="image/gif" sizes="16x16">
+    <script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-animation-component.min.js"></script>
+   
+
+</head>
+<body>
+
+
+
+    <a-scene id="Vr">
+        <a-assets >
+            <img id="sky" src="Img/2.jpg">
+            <a-asset-item id="spst" src="models/Space Elements Pack.gltf"></a-asset-item>
+            
+          </a-assets>
+          <a-sky src="#sky" color="white"></a-sky>
+          <a-entity gltf-model="#spst" position="-15 0 0" color="black" rotation="0 0 0"  >
+              
+          </a-entity>
+
+          <a-camera rotation="-4 82 3"></a-camera>
+    </a-scene>
+
+
+</body>
+</html>

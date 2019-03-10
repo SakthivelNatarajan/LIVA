@@ -1,0 +1,215 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5125,
+            "count" : 967809,
+            "max" : [
+                645450
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 645451,
+            "max" : [
+                3505.72265625,
+                2921.23388671875,
+                34.15932846069336
+            ],
+            "min" : [
+                -3379.77734375,
+                -3574.320068359375,
+                -9670.158203125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 645451,
+            "max" : [
+                0.9999580979347229,
+                0.9999080300331116,
+                1.0
+            ],
+            "min" : [
+                -0.9999558925628662,
+                -0.9999639391899109,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 645451,
+            "max" : [
+                1.0,
+                1.0,
+                0.9999423027038574,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -0.9999975562095642,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 645451,
+            "max" : [
+                2.243994951248169,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                -6.171119213104248
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3871236,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7745412,
+            "byteOffset" : 3871236,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7745412,
+            "byteOffset" : 11616648,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10327216,
+            "byteOffset" : 19362060,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5163608,
+            "byteOffset" : 29689276,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 34852884,
+            "uri" : "tree.bin"
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "name" : "wire_000000000",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Tree",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Tree",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.001334026106633246,
+                0.001334026106633246,
+                0.001334026106633246
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2,
+                1,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liva/SS</title>
+    <script src="js/aframe.min.js"></script>
+    <link rel="icon" href="imgw/li.png" type="image/gif" sizes="16x16">
+    <script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-animation-component.min.js"></script>
+   
+
+</head>
+<body>
+
+
+
+    <a-scene id="Vr">
+        <a-assets >
+            <img id="sky" src="Img/2.jpg">
+            <a-asset-item id="spst" src="models/spst.gltf"></a-asset-item>
+            <a-asset-item id="spstmtl" src="models/try.mtl"></a-asset-item>
+          </a-assets>
+          <a-sky src="#sky" color="white"></a-sky>
+          <a-entity gltf-model="#spst" position="-15 0 0" color="black" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop:true; dur: 60000; easing: linear" >
+              
+          </a-entity>
+
+          <a-camera rotation="-4 82 3"></a-camera>
+    </a-scene>
+
+    <!--<a-scene embedded arjs>
+            <a-assets >
+                    <img id="sky" src="Img/2.jpg">
+                    <a-asset-item id="spst" src="3D models/spst.gltf"></a-asset-item>
+                    <a-asset-item id="spstmtl" src="3D models/try.mtl"></a-asset-item>
+                  </a-assets>
+            <!-- create your content here. just a box for now 
+            <a-entity gltf-model="#spst" position="-15 0 0" color="black" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop:true; dur: 60000; easing: linear" >
+
+            <!-- define a camera which will move according to the marker position 
+            <a-marker-camera preset='hiro'></a-marker-camera>
+          </a-scene>-->
+
+</body>
+</html>
